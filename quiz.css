@@ -1,0 +1,153 @@
+
+body{
+    background-color: black;
+}
+.f1{
+    width: 80%;
+    height: 600px;
+    background-color: black;
+    border: 2px solid goldenrod;
+    margin: auto;
+    display: flex;
+    flex-flow:wrap;
+    flex-wrap:wrap; 
+}
+.f2{
+    width: 80%;
+    height: 350px;
+    background-color: black;
+    border: 2px solid goldenrod;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+}
+.f3{
+    width: 80%;
+    height: 350px;
+    background-color: black;
+    border: 2px solid goldenrod;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow:row-reverse;
+}
+.header{
+    height: 500px;
+
+    background-color: black;
+    border: 2px solid goldenrod;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;        
+}
+.item img{
+    height: 190px;
+    width: 180px;
+    padding: 2px;      
+    flex-grow: 1;
+}
+
+.tulis{
+    color: white;
+    font-family: 'Josefin Sans';
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-align: center;      
+}
+.joker img{
+height: 500px;  
+width: 400px; 
+float: left;
+position: absolute;
+
+}
+.item2 img{
+ height: 300px;  
+ width: 450px; 
+ float: left;
+ margin: 10px 30px;
+}
+.item3 img{
+height: 300px;  
+width: 450px; 
+float: right;
+margin: 10px 30px;
+
+}
+.desc{
+color: white;
+margin:30px 20px;
+}
+.descA{
+    color: white;
+margin:20px 50px;
+}
+.descatas{
+
+    width: 40%;
+    height: 500px;
+    position: relative;
+    float: right;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;    
+}
+.descatas button{
+    width: 100px;
+    background-color: red;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+.indo{
+    margin-top: auto;
+    float: right;
+    color: white;
+    
+}
+.judul{
+    color: white;
+    font-size: 150px;
+    font-family: 'Montserrat';
+    margin-left: 30px;
+    position: relative;
+}
+@media (max-width: 950px){
+    .f1{
+        height: 60%;  
+    }
+    .f2, .f3{
+        flex-flow: column;
+        height: 20%;
+    }
+    .descatas{
+        width: 70%;
+    }
+    .judul{
+    margin-left: none;
+    }
+}
+/* mobile css */
+@media  (max-width: 600px) {
+    .f1{
+        flex-flow: column;
+        height: 60%;
+    }
+    .f2, .f3{
+        flex-flow: column;
+    }
+    .item img ,.item3 img ,.item2 img{
+        height: 200px;
+        width: 300px;
+    }
+    .descatas{
+        width: 70%;
+    }
+    .judul{
+        margin-left: none;
+    }
+}
+
