@@ -6,7 +6,6 @@ body{
     width: 80%;
     height: 600px;
     background-color: black;
-    border: 2px solid goldenrod;
     margin: auto;
     display: flex;
     flex-flow:wrap;
@@ -16,7 +15,6 @@ body{
     width: 80%;
     height: 350px;
     background-color: black;
-    border: 2px solid goldenrod;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -26,7 +24,6 @@ body{
     width: 80%;
     height: 350px;
     background-color: black;
-    border: 2px solid goldenrod;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -36,7 +33,6 @@ body{
     height: 500px;
 
     background-color: black;
-    border: 2px solid goldenrod;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -81,7 +77,7 @@ color: white;
 margin:30px 20px;
 }
 .descA{
-    color: white;
+color: white;
 margin:20px 50px;
 }
 .descatas{
